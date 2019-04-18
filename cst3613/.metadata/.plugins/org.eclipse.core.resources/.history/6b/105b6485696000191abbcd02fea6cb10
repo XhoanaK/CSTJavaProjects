@@ -1,0 +1,12 @@
+package project9;
+
+	import javax.swing.*;
+
+
+
+public class project9 extends JFrame {
+
+	
+	 JFrame frame = new JFrame();
+	 frame.setSize(new Dimension(500,400));
+}

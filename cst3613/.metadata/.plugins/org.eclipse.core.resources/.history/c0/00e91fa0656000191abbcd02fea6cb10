@@ -1,0 +1,18 @@
+package project9;
+
+	import javax.swing.*;
+
+import javafx.scene.text.Text;
+
+public class project9 extends JFrame {
+
+	private JLabel label = new JLabel("Course Registration", JLabel.CENTER);	
+	 JLabel label = new JLabel("course registration");
+	 Text nameLabel = new Text("Courses"); 
+
+		    public static void main(String[] args) 
+		    { 
+		       
+		     
+		    } 
+		}

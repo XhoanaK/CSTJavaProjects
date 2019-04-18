@@ -1,0 +1,16 @@
+package project9;
+
+	import javax.swing.*;
+
+public class project9 extends JFrame {
+
+		
+		   
+		  
+
+		    public static void main(String[] args) 
+		    { 
+		       
+		     
+		    } 
+		}

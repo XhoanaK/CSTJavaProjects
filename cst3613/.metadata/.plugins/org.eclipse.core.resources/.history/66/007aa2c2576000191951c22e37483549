@@ -1,0 +1,77 @@
+package project9;
+
+	import java.awt.Font;
+import java.awt.Label;
+
+import javax.swing.*;
+
+
+//	  public static void main(String[] args) {
+//	    JFrame frame = new JFrame("Test Frame");
+//	    frame.setSize(400, 300);
+//	    frame.setVisible(true);
+//	    frame.setDefaultCloseOperation(
+//	      JFrame.EXIT_ON_CLOSE);
+//	    
+//	    final Label label = new Label("Course Registration");
+//        label.setFont(new Font("Arial", 20, 0));
+//
+//	  }
+//	  public static void main(String[] args) {
+//		    launch(args);
+//	   }
+
+	import java.awt.*;
+	import javax.swing.*;
+
+
+	public class project9 extends JFrame {
+		private JTextField jtfInvestmentAmount = new JTextField();
+		private JTextField jtfYears = new JTextField();
+		private JTextField jtfAnnualIntrestRate = new JTextField();
+		private JTextField jtfFutureValue = new JTextField();
+		
+		private JButton jbtCalculate = new JButton("Calculate");
+		
+		private JButton jbtInvestmetAmount = new JButton ("Investment Amount");
+		private JButton jbtYears = new JButton ("Years");
+		private JButton jbtAnnualIntrestRate = new JButton ("Annual Intrest Rate");
+		private JButton jbtFutureValue = new JButton ("Future Value");
+		
+		
+		
+		public static void main(String[] args) {
+			
+			//project9 frame = new project9();
+		    JFrame frame = new JFrame("Test Frame");
+		    frame.setSize(400, 300);
+		    frame.setVisible(true);
+		    frame.setDefaultCloseOperation(
+		      JFrame.EXIT_ON_CLOSE);
+		    
+		    final Label label = new Label("Course Registration");
+	        label.setFont(new Font("Arial", 20, 0));
+	
+		  }
+
+			
+			public project9() {
+				JPanel p1 = new JPanel(new GridLayout( 4,1));
+				p1.add(new JLabel ("Investment Amount"));
+				p1.add(jtfInvestmentAmount);
+				p1.add(new JLabel("Years"));
+				p1.add(jtfYears);
+				p1.add(new JLabel("Annual Intrest Rate"));
+				p1.add(jtfAnnualIntrestRate);
+				p1.add(new JLabel("Future Value"));
+				p1.add(jtfFutureValue);
+				jtfFutureValue.setEditable(false);
+				
+				JPanel p2 = new JPanel (new FlowLayout(FlowLayout.RIGHT));
+				p2.add(jbtCalculate);
+				add(p1, BorderLayout.CENTER);
+				add(p2, BorderLayout.SOUTH);
+			
+		}
+
+	}

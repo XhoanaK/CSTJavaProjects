@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;jvacationrental.JVacationRenta&apos; to &apos;JVacationRental&apos;&#x0A;- Original project: &apos;jvacationrental&apos;&#x0A;- Original element: &apos;jvacationrental.JVacationRenta&apos;&#x0A;- Renamed element: &apos;jvacationrental.JVacationRental&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JVacationRenta&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;jvacationrental{JVacationRenta.java[JVacationRenta" matchStrategy="1" name="JVacationRental" qualified="false" references="true" similarDeclarations="false" stamp="1550167384503" textual="false" version="1.0"/>
+</session>

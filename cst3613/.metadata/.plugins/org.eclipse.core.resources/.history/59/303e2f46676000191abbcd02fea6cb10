@@ -1,0 +1,62 @@
+package project9;
+
+
+
+
+//	private JLabel label = new JLabel("Course Registration", JLabel.CENTER);	
+//	
+//	
+//	 Text nameLabel = new Text("Courses"); 
+//	 JButton AddButton = new JButton("ADD");
+//		    public static void main(String[] args) 
+//		    { 
+//		    	project9 frame = new project9();
+//		    	frame.pack();
+//		    	frame.setTitle("GUIEventDemo");
+//		    	frame.setLocationRelativeTo(null); // Center the frame frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); frame.setVisible(true);
+//		     
+//		    } 
+//		    public project9() {
+//		    	add(label, BorderLayout.CENTER);
+////		    	JPanel jpRadioButtons = new JPanel();
+////		    	 jpRadioButtons.setLayout(new GridLayout(3, 1));
+////		    	      jpRadioButtons.add();
+////		    	      
+////		    	     add(jpRadioButtons, BorderLayout.WEST);
+//		    	
+//		    	
+//		    }
+//		}
+	
+	
+	import java.awt.FlowLayout;
+
+	import javax.swing.*;
+
+	class project9 extends JFrame
+	{
+	  JPanel panel;
+	  JLabel label;
+
+	  // constructor
+	  project9( String title )
+	  {
+	    super( title );                      // invoke the JFrame constructor
+	    setSize( 150, 100 );
+	    setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+	    
+	    setLayout( new FlowLayout() );       // set the layout manager
+	    label = new JLabel("Hello Swing!");  // construct a JLabel
+	    add( label );                        // add the label to the JFrame
+	  }
+
+	} 
+
+	public class TestFrame2
+	{
+	  public static void main ( String[] args )
+	  {
+	    project9 frame = new project9("Hello"); // construct a MyFrame object
+	    frame.setVisible( true );             // ask it to become visible
+	  }
+	}
